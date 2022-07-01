@@ -24,18 +24,25 @@ export default function Home({ allProjectsData }) {
         <p className='text-center'>aspiring software engineer and marketing coordinator</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <ul className={utilStyles.list}>
-          {allProjectsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/projects/${id}`}>
-                <a>{title}</a>
-              </Link>&nbsp;
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
-        </ul>
+        <div>
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none">
+
+              <div className="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
+                {allProjectsData.map(({ id, title, date }) => (
+                  <div key={id} className="group relative">
+                    <h3 className="mt-6 text-xl text-gray-500">
+                      <Link href={`/projects/${id}`}>
+                        {title}
+                      </Link>&nbsp;
+                      <Date dateString={date} />
+                    </h3>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </Layout>
   );
