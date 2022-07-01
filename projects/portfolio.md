@@ -1,3 +1,10 @@
+---
+title: 'Portfolio'
+date: '2022'
+source: 'https://github.com/zayadur/portfolio'
+link: 'https://swipecardgame.com'
+---
+
 # Portfolio built with React and Next.js
 
 This project was bootstrapped with `npx create-next-app .`
