@@ -26,17 +26,14 @@ export default function Home({ allProjectsData }) {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <ul className={utilStyles.list}>
           {allProjectsData.map(({ id, date, title }) => (
-            <>
-              <br />
-              <li className={utilStyles.listItem} key={id}>
-                <Link href={`/projects/${id}`}>
-                  <a>{title}</a>
-                </Link>&nbsp;
-                <small className={utilStyles.lightText}>
-                  <Date dateString={date} />
-                </small>
-              </li>
-            </>
+            <li className={utilStyles.listItem} key={id}>
+              <Link href={`/projects/${id}`}>
+                <a>{title}</a>
+              </Link>&nbsp;
+              <small className={utilStyles.lightText}>
+                <Date dateString={date} />
+              </small>
+            </li>
           ))}
         </ul>
       </section>
