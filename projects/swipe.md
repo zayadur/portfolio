@@ -1,8 +1,6 @@
 ---
 title: 'Swipe👆'
 date: '2022'
-source: 'https://github.com/zayadur/com.swipecardgame'
-link: 'https://swipecardgame.com'
 ---
 
 ***
@@ -15,7 +13,7 @@ link: 'https://swipecardgame.com'
 
 ***
 
-# Website
+# Website [project](https://swipecardgame.com) | [source](https://github.com/zayadur/com.swipecardgame)
 
 ## An elegant and dynamic landing page with interactions demonstrating how the product is used.
 

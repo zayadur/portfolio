@@ -1,13 +1,13 @@
 ---
 title: 'Portfolio'
 date: '2022'
-source: 'https://github.com/zayadur/portfolio'
-link: 'https://swipecardgame.com'
 ---
 
 ***
 
 # Built with React and Next.js
+
+[project](#) | [source](https://github.com/zayadur/portfolio)
 
 This project was bootstrapped with `npx create-next-app .`\
 [learn more about Next.js](https://nextjs.org/learn/foundations/about-nextjs)
