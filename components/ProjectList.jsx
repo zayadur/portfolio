@@ -1,15 +1,6 @@
 import Link from 'next/link';
-import Date from '../components/date';
-import { getSortedProjectsData } from '../lib/projects';
-
-export async function getStaticProps() {
-  const allProjectsData = getSortedProjectsData();
-  return {
-    props: {
-      allProjectsData,
-    },
-  };
-}
+import Date from './date';
+import utilStyles from '../styles/utils.module.scss';
 
 export default function ProjectList({ allProjectsData }) {
   return (

@@ -1,9 +1,19 @@
 import Head from 'next/head';
-import { siteTitle } from '../components/layout';
-import ProjectList from '../components/projectList';
+import Layout, { siteTitle } from '../components/layout';
+import ProjectList from '../components/ProjectList';
+import { getSortedProjectsData } from '../lib/projects';
 import utilStyles from '../styles/utils.module.scss';
 
-export default function Home() {
+export async function getStaticProps() {
+  const allProjectsData = getSortedProjectsData();
+  return {
+    props: {
+      allProjectsData,
+    },
+  };
+}
+
+export default function Home({ allProjectsData }) {
   return (
     <Layout home>
       <Head>
@@ -12,7 +22,7 @@ export default function Home() {
       <section className={utilStyles.headingMd}>
         <p className='text-center'>aspiring software engineer and marketing coordinator</p>
       </section>
-      <ProjectList />
+      <ProjectList allProjectsData={allProjectsData} />
     </Layout>
   );
 }
