@@ -13,9 +13,11 @@ date: '2022'
 
 ***
 
-# Website [project](https://swipecardgame.com) | [source](https://github.com/zayadur/com.swipecardgame)
+# Website
 
 ## An elegant and dynamic landing page with interactions demonstrating how the product is used.
+
+[project](https://swipecardgame.com) | [source](https://github.com/zayadur/com.swipecardgame)
 
 <br>
 
