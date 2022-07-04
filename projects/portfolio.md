@@ -11,25 +11,25 @@ date: '2022'
 
 This project was bootstrapped with `npx create-next-app .`
 
-`npm run dev` to run the development environment.\
-`npm run build` to build a public distribution.\
+`npm run dev` to run the development environment.
+`npm run build` to build a public distribution.
 `npm run start` to start a production server.
 
 ***
 
 # Layout
 ### components and logic
-- `./components` holds React components to render HTML\
+- `./components` holds React components to render HTML
 - `./lib` handles data fetching and computations
 
 ### routing and data
-- `./pages` is a Next.js standard that automatically hands routing\
-- `./pages/api` contains API endpoints\
+- `./pages` is a Next.js standard that automatically hands routing
+- `./pages/api` contains API endpoints
 - `./pages/projects` drives a route for `~/projects/[id]`
 
 ### assets
-- `./projects` contains markdown files to easily add project details\
-- `./public` holds static assets like images\
+- `./projects` contains markdown files to easily add project details
+- `./public` holds static assets like images
 - `./styles` holds stylesheets used across various components
 
 ***

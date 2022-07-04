@@ -5,7 +5,7 @@ import Date from '../../components/Date';
 
 import { getProjectIds, getProjectData } from '../../lib/projects';
 
-import projectStyles from '../../styles/ProjectList.module.scss';
+import styles from '../../styles/projects.module.scss';
 
 export async function getStaticProps({ params }) {
   const projectData = await getProjectData(params.id);
@@ -38,7 +38,7 @@ export default function Project({ projectData }) {
           </small>
         </h1>
         <div>
-          <div className={projectStyles.markdown} dangerouslySetInnerHTML={{ __html: projectData.contentHtml }} />
+          <div className={styles.markdown} dangerouslySetInnerHTML={{ __html: projectData.contentHtml }} />
         </div>
       </article>
     </Layout>
