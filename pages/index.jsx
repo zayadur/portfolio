@@ -1,28 +1,33 @@
+// next.js
 import Head from 'next/head';
-import Layout, { siteTitle } from '../components/layout';
+
+// components
+import Layout, { siteTitle } from '../components/Layout';
 import ProjectList from '../components/ProjectList';
-import { getSortedProjectsData } from '../lib/projects';
-import utilStyles from '../styles/utils.module.scss';
+
+// logic
+import { getSortedProjectData } from '../lib/projects';
 
 export async function getStaticProps() {
-  const allProjectsData = getSortedProjectsData();
+  const projectData = getSortedProjectData();
+
   return {
     props: {
-      allProjectsData,
+      projectData
     },
   };
 }
 
-export default function Home({ allProjectsData }) {
+export default function Home({ projectData }) {
   return (
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
-        <p className='text-center'>aspiring software engineer and marketing coordinator</p>
+      <section>
+        <p className="font-bold my-3 text-xl text-center">aspiring software engineer and marketing coordinator</p>
       </section>
-      <ProjectList allProjectsData={allProjectsData} />
+      <ProjectList projectData={projectData} />
     </Layout>
   );
 }

@@ -1,9 +1,11 @@
 import Head from 'next/head';
-import Layout from '../../components/layout';
-import Date from '../../components/date';
+
+import Layout from '../../components/Layout';
+import Date from '../../components/Date';
+
 import { getProjectIds, getProjectData } from '../../lib/projects';
-import projectStyles from '../../lib/projects.module.scss'
-import utilStyles from '../../styles/utils.module.scss';
+
+import styles from '../../styles/projects.module.scss';
 
 export async function getStaticProps({ params }) {
   const projectData = await getProjectData(params.id);
@@ -29,14 +31,14 @@ export default function Project({ projectData }) {
         <title>{projectData.title}</title>
       </Head>
       <article>
-        <h1 className={utilStyles.headingXl}>
+        <h1 className="text-6xl">
           {projectData.title}&nbsp;
-          <small className={utilStyles.lightText}>
+          <small className="text-slate-400">
             <Date dateString={projectData.date} />
           </small>
         </h1>
         <div>
-          <div className={projectStyles.markdown} dangerouslySetInnerHTML={{ __html: projectData.contentHtml }} />
+          <div className={styles.markdown} dangerouslySetInnerHTML={{ __html: projectData.contentHtml }} />
         </div>
       </article>
     </Layout>

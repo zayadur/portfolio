@@ -53,11 +53,11 @@ export async function getProjectData(id) {
   };
 }
 
-export function getSortedProjectsData() {
+export function getSortedProjectData() {
   // get file names under /projects
   const fileNames = fs.readdirSync(projectsDirectory);
   
-  const allProjectsData = fileNames.map(fileName => {
+  const projectData = fileNames.map(fileName => {
     
     // remove ".md" from file name to get id
     const id = fileName.replace(/\.md$/, '');
@@ -78,7 +78,7 @@ export function getSortedProjectsData() {
   });
   
   // sort projects by date
-  return allProjectsData.sort(({ date: a }, { date: b }) => {
+  return projectData.sort(({ date: a }, { date: b }) => {
     if (a < b) {
       return 1;
     } else if (a > b) {
