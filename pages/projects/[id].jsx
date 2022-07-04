@@ -5,7 +5,7 @@ import Date from '../../components/Date';
 
 import { getProjectIds, getProjectData } from '../../lib/projects';
 
-import projectStyles from '../../components/ProjectList.module.scss';
+import projectStyles from '../../styles/ProjectList.module.scss';
 
 export async function getStaticProps({ params }) {
   const projectData = await getProjectData(params.id);

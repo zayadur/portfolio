@@ -5,25 +5,17 @@ date: '2022'
 
 ***
 
-# Social
-
-## Researching, templating, and scheduling social media posts to raise brand awareness.
+## Social - researching, templating, scheduling social media posts to raise awareness.
 
 [facebook](https://www.facebook.com/swipecardgame) | [twitter](https://twitter.com/swipecardgame) | [instagram](https://www.instagram.com/swipecardgame/) | [tiktok](https://www.tiktok.com/@swipecardgame)
 
 ***
 
-# Website
-
-## An elegant and dynamic landing page with interactions demonstrating how the product is used.
+## Website - an elegant and dynamic landing page with interactions demonstrating the.
 
 [project](https://swipecardgame.com) | [source](https://github.com/zayadur/com.swipecardgame)
 
-<br>
-
 ### [Interactive Header](https://github.com/zayadur/com.swipecardgame/tree/main/InteractiveHeader): an interactive demonstration of how the game works.
-
-<br>
 
 ### What is this?
 Users are asked to approve or deny a dating profile represented by a combination of cards. This section demonstrates how the main game works through a pleasantly animated interaction.
