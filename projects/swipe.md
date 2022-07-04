@@ -37,7 +37,7 @@ Driver: `/InteractiveHeader/script.js`
 5. A window event listener loads these functions on page load.
 
 ### What does it look like?
-![InteractiveHeaderPreview](https://raw.githubusercontent.com/zayadur/com.swipecardgame/main/InteractiveHeaderPreview.gif 'Preview of the interactive header section')
+![InteractiveHeaderPreview](https://raw.githubusercontent.com/zayadur/com.swipecardgame/main/InteractiveHeaderPreview.gif 'Preview of the interactive header section on swipecardgame.com')
 
 ***
 
