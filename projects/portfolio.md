@@ -1,6 +1,7 @@
 ---
 title: 'Portfolio'
 date: '2022'
+stack: 'React, Next.js, Tailwind CSS'
 ---
 
 ***
