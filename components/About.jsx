@@ -62,7 +62,7 @@ export default function About() {
                   <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
                     <div className="flex items-center space-x-6 lg:space-x-8">
                       <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
-                        <div className="w-44 h-24 rounded-lg overflow-hidden sm:opacity-0 lg:opacity-100">
+                        <div className="w-80 h-44 rounded-lg overflow-hidden sm:opacity-0 lg:opacity-100">
                           <Image
                             src={'/images/projects/neopolitico.png'}
                             width={1280}
@@ -70,9 +70,7 @@ export default function About() {
                             className="w-full h-full object-center object-cover"
                           />
                         </div>
-                      </div>
-                      <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
-                        <div className="w-44 h-24 rounded-lg overflow-hidden">
+                        <div className="w-80 h-44 rounded-lg overflow-hidden">
                           <Image
                             src={'/images/projects/swipe.png'}
                             width={1280}
@@ -80,7 +78,9 @@ export default function About() {
                             className="w-full h-full object-center object-cover"
                           />
                         </div>
-                        <div className="w-44 h-24 rounded-lg overflow-hidden">
+                      </div>
+                      <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
+                        <div className="w-80 h-44 rounded-lg overflow-hidden">
                           <Image
                             src={'/images/projects/VolumeWarning.png'}
                             width={1280}
@@ -88,7 +88,7 @@ export default function About() {
                             className="w-full h-full object-center object-cover"
                           />
                         </div>
-                        <div className="w-44 h-24 rounded-lg overflow-hidden">
+                        <div className="w-80 h-44 rounded-lg overflow-hidden">
                           <Image
                             src={'/images/projects/LetsDoIt.png'}
                             width={1280}
@@ -96,9 +96,7 @@ export default function About() {
                             className="w-full h-full object-center object-cover"
                           />
                         </div>
-                      </div>
-                      <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
-                        <div className="w-44 h-24 rounded-lg overflow-hidden">
+                        <div className="w-80 h-44 rounded-lg overflow-hidden">
                           <Image
                             src={'/images/projects/GreatValueTrashBag.png'}
                             width={1280}
@@ -106,6 +104,9 @@ export default function About() {
                             className="w-full h-full object-center object-cover"
                           />
                         </div>
+                      </div>
+                      <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
+                        {/* placeholder for third column */}
                       </div>
                     </div>
                   </div>
