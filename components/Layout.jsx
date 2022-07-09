@@ -1,8 +1,8 @@
 import Head from 'next/head';
-import Link from 'next/link';
 
-const name = 'zayadur';
-export const siteTitle = 'zayadur\'s portfolio';
+import Navigation from './Navigation';
+
+export const siteTitle = 'zayadur';
 
 export default function Layout({ children, home }) {
   return (
@@ -21,15 +21,8 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className="flex flex-col items-center">
-        <h1 className="text-6xl font-black">{home ? name : ''}</h1>
-      </header>
+      <Navigation />
       <main>{children}</main>
-      {!home && (
-        <Link className="mx-3 items-center" href="/">
-          <a>← return</a>
-        </Link>
-      )}
     </div>
   );
 }

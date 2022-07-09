@@ -29,4 +29,3 @@ Go to [http://localhost:3000](http://localhost:3000) to view the project.
 
 - fetching data with `getStaticProps` & `getServerSideProps` are to be used in pages, not components!
 - `props` in pages are passed down to `<Components />`, so use prop `names` in `<Components />` without importing modules with data, and assign `props={props}` to respective `<Components />` on page.
-
