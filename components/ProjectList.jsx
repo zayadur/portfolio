@@ -3,7 +3,6 @@ import Image from 'next/image';
 
 export default function ProjectList({ projectData }) {
   return (
-<<<<<<< HEAD
     <div>
       <h1 class="my-6 flex justify-center text-4xl font-black">software</h1>
       <section class="my-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
@@ -71,15 +70,6 @@ export default function ProjectList({ projectData }) {
           <div class="relative w-full h-90 rounded-lg group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-90 lg:aspect-w-1 lg:aspect-h-1 cursor-pointer ease-in-out duration-200">
             <p class="font-bold my-3 text-2xl text-center cursor-pointer">NYAN</p>
             <a href='https://youtu.be/WOmurGPQ9EA' target='_blank'>
-=======
-    <section class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
-
-      {projectData.map(({ id, title, stack }) => (
-        <div key={id} class="group relative">
-          <div class="relative w-full h-90 rounded-lg group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-90 lg:aspect-w-1 lg:aspect-h-1 cursor-pointer ease-in-out duration-300">
-            <p class="font-bold my-3 text-3xl text-center cursor-pointer">{title}</p>
-            <Link href={`/projects/${id}`}>
->>>>>>> b3291f8aebcfb9308991e0ed5837cb3f7b8f40be
               <Image
                 src={'/images/projects/Nyan.png'}
                 alt='Video thumbnail'
