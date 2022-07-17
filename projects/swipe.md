@@ -39,7 +39,7 @@ Driver: `/InteractiveHeader/script.js`
 
 ***
 
-## [About Modal](#): an about modal that displays information about the game.
+## [About Modal](https://github.com/zayadur/com.swipecardgame/tree/main/AboutModal): an about modal that displays information about the game.
 ### What is this?
 Users can press a button to toggle the display state of a modal that displays in-depth information about the game.
 
@@ -53,7 +53,7 @@ Driver: `/AboutModal/script.js`
 
 ***
 
-## [Match Modal](#): a modal that shows user their most recent match with a call to action.
+## [Match Modal](https://github.com/zayadur/com.swipecardgame/tree/main/MatchModal): a modal that shows user their most recent match with a call to action.
 ### What is this?
 If a user clicks "oh yes" to confirm a match, a popup window opens up re-rendering the deck and presenting more information about the next game state.
 
