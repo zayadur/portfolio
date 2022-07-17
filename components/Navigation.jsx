@@ -46,6 +46,7 @@ export default function Navigation() {
                 {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
                 <a href="/" class="text-white hover:bg-neutral-900 px-3 py-2 rounded-md text-md font-bold ease-in-out duration-200">about</a>
                 <a href="/projects" class="text-white hover:bg-neutral-900 px-3 py-2 rounded-md text-md font-bold ease-in-out duration-200">projects</a>
+                <a href="/resume.pdf" target={"_blank"} class="text-white hover:bg-neutral-900 px-3 py-2 rounded-md text-md font-bold ease-in-out duration-200">resume</a>
                 <a href="mailto:zayadur@outlook.com" class="text-white hover:bg-neutral-900 px-3 py-2 rounded-md text-md font-bold ease-in-out duration-200">contact</a>
               </div>
             </div>
@@ -73,6 +74,7 @@ export default function Navigation() {
           {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
           <a href="/" class="text-white hover:bg-neutral-900 px-3 py-2 rounded-md text-md font-semibold">about</a>
           <a href="/projects" class="text-white hover:bg-neutral-900 px-3 py-2 rounded-md text-md font-semibold">projects</a>
+          <a href="/resume.pdf" target={"_blank"} class="text-white hover:bg-neutral-900 px-3 py-2 rounded-md text-md font-semibold">resume</a>
           <a href="mailto:zayadur@outlook.com" class="text-white hover:bg-neutral-900 px-3 py-2 rounded-md text-md font-semibold">contact</a>
         </div>
       </div>

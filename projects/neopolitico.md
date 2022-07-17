@@ -1,12 +1,14 @@
 ---
 title: 'Neo Politico'
 date: '2016'
-stack: 'Bootstrap, jQuery'
+stack: 'Bootstrap, jQuery, Gulp'
 ---
 
 ***
 
 ### The Youth Journal for Applied Politics
+
+[project](https://zayadur.github.io/neopolitico) | [source](https://github.com/zayadur/neopolitico)
 
 ## What is Neo Politico?
 Neo Politico is a space where any student, regardless of their prior experience, can voice their opinions on certain issues. Every opinion matters because everyone matters. We only hope that more students across the entire world can join us in increasing political engagement and producing a critical consciousness of the world.
